@@ -1,0 +1,10 @@
+Create a virtual environment
+Activate the virtual environment
+install django
+build a basic django application
+run the application
+Write some basic automated tests for the application
+Check in the application into github
+Create a jenkins job
+build the job with jenkins to setup the application and run the automated tests
+Explore other tests we can do with the application
