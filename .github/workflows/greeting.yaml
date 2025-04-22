@@ -1,8 +1,13 @@
-name: hello-class
+name: hello-CICD-class-2025
 on: push
 jobs:
-  my-job:
+  first-job:
     runs-on: ubuntu-latest
     steps:
-      - name: my-step
+      - name: step-one
         run: echo "Hi World!"
+  second-job: 
+    runs-on: ubuntu-latest
+    steps:
+      - name: step-two
+        run: echo "CI-CD with github actions"
